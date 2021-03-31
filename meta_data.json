@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "blog",
+        "2": "web scraping",
+        "3": "social network",
+        "4": "media"
+    },
+    "description": "Automatically obtain the latest Post information of Medium",
+    "image": "//s3.amazonaws.com/appforest_uf/f1602055672159x103223461065257150/unnamed%20%282%29.png",
+    "license": "open_source",
+    "link": "https://numbersprotocol.io/",
+    "name": "Medium Auto Get",
+    "plugin_instructions": "Automatically obtain the latest Post information of Medium"
+}

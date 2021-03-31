@@ -1,0 +1,57 @@
+{
+    "category": "plugins",
+    "display": "GetMediumPost",
+    "fields": {
+        "AAf": {
+            "caption": "postID",
+            "default_val": "3bfb52321bdd",
+            "doc": "input medium postid,Get The Post Information",
+            "editor": "StaticText",
+            "name": "postID",
+            "optional": false,
+            "rank": 0
+        },
+        "AAi": {
+            "caption": "mediumID",
+            "default_val": "numbers-protocol",
+            "doc": "Inupt Your ID, Get  The latest three Post data ,EXP:https://medium.com/{{ Your ID }}",
+            "editor": "StaticText",
+            "name": "mediumID",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAb": {
+            "caption": "title",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "content",
+            "name": "content",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "img",
+            "name": "img",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "link",
+            "name": "link",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "input",
+            "name": "input",
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

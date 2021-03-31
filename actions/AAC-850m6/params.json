@@ -1,0 +1,98 @@
+{
+    "category": "data (things)",
+    "display": "GetLatestPost ",
+    "fields": {
+        "AAJ": {
+            "caption": "mediumID",
+            "default_val": "numbers-protocol",
+            "doc": "Inupt Your ID, Get  The latest three Post data ,EXP:https://medium.com/{{ Your ID }}",
+            "editor": "StaticText",
+            "name": "mediumID",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAK": {
+            "caption": "input",
+            "is_list": true,
+            "name": "input",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "title1",
+            "name": "title1",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "title2",
+            "name": "title2",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "title0",
+            "name": "title0",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "content0",
+            "name": "content0",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "content1",
+            "name": "content1",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "content2",
+            "name": "content2",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "img0",
+            "name": "img0",
+            "rank": 7,
+            "value": "image"
+        },
+        "AAU": {
+            "caption": "img1",
+            "name": "img1",
+            "rank": 8,
+            "value": "image"
+        },
+        "AAV": {
+            "caption": "img2",
+            "name": "img2",
+            "rank": 9,
+            "value": "image"
+        },
+        "AAW": {
+            "caption": "Link0",
+            "name": "link0",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "link1",
+            "name": "link1",
+            "rank": 11,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "link2",
+            "name": "link2",
+            "rank": 12,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
